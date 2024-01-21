@@ -444,3 +444,224 @@ footer {
   text-align: center;
   margin-top: 30px;
 }
+@media screen and (max-width: 600px) {
+  header .container {
+    margin: 0 2rem;
+  }
+  .container {
+    margin: 0 3rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .header-right label {
+    display: block;
+    visibility: visible;
+    margin-top: 12px;
+  }
+  .header-right label {
+    font-size: 25px;
+  }
+  .header-right input {
+    visibility: hidden;
+    display: none;
+  }
+  .header-right ul li {
+    text-align: center;
+    padding: 6px;
+  }
+  .header-right ul {
+    position: absolute;
+    top: 5rem;
+    left: 8%;
+    background: black;
+    visibility: hidden;
+    display: block;
+    width: 83%;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  .header-right ul li a {
+    color: #ededed;
+  }
+  input#click:checked ~ ul {
+    visibility: visible;
+  }
+
+  .banner-text h2 {
+    font-size: 2rem;
+  }
+  .banner-text {
+    padding: 3rem 0;
+  }
+  .form form {
+    flex-direction: column;
+  }
+  form > input,
+  select {
+    margin: 5px 0px;
+    width: 100%;
+  }
+  .btn {
+    justify-content: center;
+  }
+
+  .pack-content {
+    gap: 2rem;
+    flex-direction: column;
+  }
+  .pack-text {
+    width: 100%;
+    padding: 0rem 1rem;
+  }
+  .pack-img {
+    margin-top: 0;
+  }
+  .pack-text ul li {
+    list-style-type: disc;
+    margin: 0rem 0rem 1rem 1rem;
+  }
+  #Testimonial {
+    margin: 0rem;
+  }
+  .choose-box {
+    flex-direction: column;
+  }
+  .box-3 {
+    width: 100%;
+  }
+  .card h3.title {
+    font-size: 1.2rem;
+  }
+  .card img {
+    width: 16%;
+  }
+  .pack-img video {
+    height: auto;
+    width: 100%;
+  }
+  .for-video h2 {
+    top: 20%;
+    font-size: 1rem;
+  }
+
+  .subscribers {
+    flex-direction: column;
+  }
+  .subscribe-form {
+    width: 100%;
+    padding: 1rem;
+  }
+  .subscribe-img {
+    width: 100%;
+  }
+  .img-with-discount .offer h3 {
+    font-size: 14px;
+  }
+  .img-with-discount .offer h2 {
+    font-size: 20px;
+  }
+  .Nile-Basin-img img {
+    height: 400px;
+  }
+  .author-text {
+    top: 20%;
+    right: 5%;
+    width: 90%;
+    padding: 1rem;
+  }
+  .Nile-Basin-2 .author-text {
+    top: 20%;
+    left: 5%;
+    width: 90%;
+    padding: 1rem;
+  }
+  .maldives {
+    grid-column: 1 / -1;
+  }
+  .indonesia {
+    grid-column: 1 / -1;
+  }
+  .srilanka {
+    grid-column: 1 / -1;
+  }
+  .america {
+    grid-column: 1 / -1;
+  }
+  .kashmir {
+    grid-column: 1 / -1;
+  }
+  .bangladesh {
+    grid-column: 1 / -1;
+  }
+  .bandorban {
+    grid-column: 1 / -1;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  header .container {
+    margin: 0 1rem;
+  }
+  .container {
+    margin: 0 2rem;
+  }
+  .header-left .logo a img {
+    width: 80%;
+  }
+  .logo-text {
+    padding: 0;
+  }
+  .header-left .logo-text a h2 {
+    font-size: 22px;
+  }
+  .header-right label {
+    font-size: 20px;
+  }
+  .header-right label {
+    margin-top: 5px;
+  }
+
+  .banner-text p,
+  .pack-text {
+    padding: 0;
+  }
+  .title {
+    font-size: 1.2rem;
+  }
+  .primary-btn {
+    padding: 12px;
+  }
+  .satorini-img img {
+    height: 400px;
+  }
+  .author-text,
+  .satorini-2 .author-text {
+    top: 20%;
+    right: 5%;
+    width: 90%;
+    padding: 1rem;
+  }
+
+  .maldives {
+    grid-column: 1 / -1;
+  }
+  .indonesia {
+    grid-column: 1 / -1;
+  }
+  .srilanka {
+    grid-column: 1 / -1;
+  }
+  .america {
+    grid-column: 1 / -1;
+  }
+  .kashmir {
+    grid-column: 1 / -1;
+  }
+  .bangladesh {
+    grid-column: 1 / -1;
+  }
+  .bandorban {
+    grid-column: 1 / -1;
+  }
+}
